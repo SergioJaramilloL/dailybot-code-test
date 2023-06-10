@@ -1,0 +1,39 @@
+# Dependency directories
+/node_modules
+/.pnp
+.pnp.js
+
+# Environment configuration
+.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+debug.log
+server.log
+
+# Build output
+/dist
+
+# Editor directories and files
+/.vscode
+/.idea
+/.vs
+*.sublime-*
+*.swp
+*~
+.project
+*.iml
+*.ipr
+*.iws
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Testing frameworks
+/coverage
+
+# System files
+.DS_Store
