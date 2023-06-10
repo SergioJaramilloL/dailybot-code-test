@@ -1,7 +1,6 @@
 const { getMovies } = require('./movie.services')
 const { paginationResponse } = require('./movie.utils.js')
 
-
 async function getMoviesController(req, res) {
   const { movieName, actorName, rating, currentPage} = req.query
 
