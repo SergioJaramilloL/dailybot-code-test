@@ -1,5 +1,7 @@
 # DailyBot code test
 
+You can try out the application, for example, with Postman, using the following deployment link: https://dailybot-movies.onrender.com/.
+
 This project fulfills the characteristics of a Restful API for a movie list application. The backend application was developed in Node.js with Express. It is implemented using JavaScript and has unit tests with Jest.
 
 The application uses a JSON file as a database where a single query is performed with three filters: sorting by rating from highest to lowest, filtering by similar movies, and filtering by actors. These filters can be used with the query parameters "movieName," "actorName," and "rating." Additionally, the response can be paginated by adding the query parameter "currentPage."
@@ -34,7 +36,7 @@ npm run dev
 
 ### 1. Endpoints
 
-#### 1.1. "/api/healtcheck"
+#### 1.1. "/api/healthcheck"
 
 This endpoint serves to verify that the server is running correctly.
 
